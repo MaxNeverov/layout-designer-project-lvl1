@@ -24,6 +24,7 @@ h1,h2,h3{
   font-family: 'Neucha', italic;
   line-height: 1.2em;
   margin-top: 0;
+  font-weight: 400;
 }
 
 h1{
@@ -38,7 +39,7 @@ h3{
   font-size: 34px;
 }
 
-section{
+.container{
   width: 1110px;
   margin: auto auto;
   padding-top: 100px;
@@ -72,7 +73,6 @@ section{
 .header-h1{
   margin-bottom: 180px;
   color: var(--basic);
-  font-weight: 400;
 }
 
 .dark-text{
@@ -107,6 +107,26 @@ section{
   color: var(--white);
   background-color: var(--basic);
   margin-top: 24px;
+}
+
+
+.what-is{
+  color: var(--basic);
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.what-is-p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-bottom: -200px;
 }
 
 
