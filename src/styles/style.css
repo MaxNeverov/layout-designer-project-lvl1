@@ -255,6 +255,7 @@ h3{
 
 .effect-h3-brown{
   color: var(--white);
+  max-width: 514px;
 }
 
 h4{
