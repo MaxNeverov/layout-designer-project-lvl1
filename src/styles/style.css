@@ -214,10 +214,19 @@ h3{
   z-index: 1;
 }
 
+.sec-col-brown{
+  background-color: var(--brown);
+  z-index: 1;
+}
+
 .effect-img{
   vertical-align: middle;
   margin-right: 30px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.effect-img-brown{
+  margin-right: 0;
 }
 
 .effect-p{
@@ -228,8 +237,24 @@ h3{
   margin-bottom: 0;
 }
 
+.effect-p-brown{
+  color: var(--white);
+}
+
+.effect-p-brown-title{
+  color: var(--tr_white);
+}
+
 .effect-h2{
   margin-bottom: 30px;
+}
+
+.effect-h2-brown{
+  color: var(--white);
+}
+
+.effect-h3-brown{
+  color: var(--white);
 }
 
 h4{
@@ -241,6 +266,11 @@ h4{
   padding-left: 10px;
   margin-top: 100px;
   margin-bottom: 20px;
+}
+
+.h4-brown{
+  background-color: var(--white);
+  color: var(--brown);
 }
 
 .p-marg-none{
