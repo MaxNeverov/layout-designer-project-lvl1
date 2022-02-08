@@ -89,9 +89,8 @@ h3{
   z-index: -1;
 }
 
-.col-cont{
+.flex-cont{
   display: flex;
-  
 }
 
 .first-ch{
@@ -159,7 +158,6 @@ h3{
 
 .card{
   background-color: var(--light);
-  
   max-width: 302px;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -172,7 +170,6 @@ h3{
 
 .card:hover{
   background-color: var(--basic_orande);
-  
 }
 
 .card:hover h2{
@@ -199,12 +196,55 @@ h3{
   line-height: 1;
 }
 
-.effect-h3{
+.card-effect-h3{
   color: var(--basic);
   margin-bottom: 16px;
 }
 
 .card-p{
   margin-bottom: 0;
-
 }
+
+.sec-rel{
+  position: relative;
+}
+
+.sec-col-light{
+  background-color: var(--light);
+  z-index: 1;
+}
+
+.effect-img{
+  vertical-align: middle;
+  margin-right: 30px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.effect-p{
+  font-family: 'Neucha', italic;
+  color: var(--tr_dark);
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.effect-h2{
+  margin-bottom: 30px;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--brown);
+  color: var(--white);
+  padding-left: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.p-marg-none{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
