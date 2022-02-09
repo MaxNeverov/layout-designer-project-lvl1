@@ -10,13 +10,15 @@
   --tr_dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --basic_orande: #EA7600;
+  --basic_orande: #ea7600;
 }
 
 body {
+
+  margin: 0 0;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  margin: 0 0;
+
   color: var(--dark);
   line-height: 1.6em;
 }
@@ -24,12 +26,13 @@ body {
 h1,
 h2,
 h3 {
+
+  margin-top: 0;
   font-family: "Neucha", italic;
   
-  margin-top: 0;
-  line-height: 1.2em;
-  
   font-weight: 400;
+
+  line-height: 1.2em;
 }
 
 h1 {
@@ -53,8 +56,10 @@ h3 {
 
 .header {
   position: relative;
-  background-color: var(--light);
+
   z-index: 1;
+
+  background-color: var(--light);
 }
 
 .h-section {
@@ -64,19 +69,22 @@ h3 {
 .bg-before::before {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
   bottom: 0;
+  z-index: -2;
+
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+
   content: "";
-  z-index: -2;
 }
 
 .header-h1 {
   margin-bottom: 180px;
+
   color: var(--basic);
 }
 
@@ -86,10 +94,11 @@ h3 {
 
 .header-image {
   position: absolute;
-  height: 525px;
   top: 55px;
   right: -270px;
   z-index: -1;
+
+  height: 525px;
 }
 
 .flex-cont {
@@ -105,12 +114,15 @@ h3 {
 }
 
 .h-btn {
-  padding: 12px 24px;
-  border: none;
-  font-weight: bold;
-  color: var(--white);
-  background-color: var(--basic);
   margin-top: 24px;
+  padding: 12px 24px;
+
+  color: var(--white);
+  font-weight: bold;
+
+  border: none;
+  
+  background-color: var(--basic);
 }
 
 .h-btn:hover {
@@ -118,28 +130,34 @@ h3 {
 }
 
 .what-is {
+  margin-bottom: 30px;
+
   color: var(--basic);
   text-align: center;
-  margin-bottom: 30px;
+  
 }
 
 .what-is-p {
-  text-align: center;
-  margin-bottom: 30px;
   margin-top: 0;
+  margin-bottom: 30px;
+  
+  text-align: center;
 }
 
 .video {
   position: relative;
+
   display: block;
-  margin: 0 auto;
+  margin: 0 auto -184px auto;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  margin-bottom: -184px;
+  
   border: none;
 }
 
 .video-marg {
   padding-top: 100px;
+
   background-color: var(--basic_dark);
 }
 
@@ -150,10 +168,11 @@ h3 {
 }
 
 .h2-card {
-  font-size: 52px;
-  color: var(--basic);
   padding-right: 39px;
   margin-bottom: 20px;
+
+  color: var(--basic);
+  font-size: 52px;
 }
 
 .h2-card-span {
@@ -161,11 +180,12 @@ h3 {
 }
 
 .card {
-  background-color: var(--light);
   max-width: 302px;
   margin-right: 30px;
   margin-bottom: 20px;
   padding: 24px;
+
+  background-color: var(--light);
 }
 
 .card-end {
@@ -189,19 +209,21 @@ h3 {
 }
 
 .card-a {
-  text-decoration: none;
   color: var(--dark);
+  text-decoration: none;
 }
 
 .number {
   margin-bottom: 40px;
+
   font-size: 64px;
   line-height: 1;
 }
 
 .card-effect-h3 {
-  color: var(--basic);
   margin-bottom: 16px;
+
+  color: var(--basic);
 }
 
 .card-p {
@@ -213,18 +235,21 @@ h3 {
 }
 
 .sec-col-light {
-  background-color: var(--light);
   z-index: 1;
+
+  background-color: var(--light);
 }
 
 .sec-col-brown {
-  background-color: var(--brown);
   z-index: 1;
+
+  background-color: var(--brown);
 }
 
 .effect-img {
-  vertical-align: middle;
   margin-right: 30px;
+  vertical-align: middle;
+  
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -233,11 +258,12 @@ h3 {
 }
 
 .effect-p {
-  font-family: "Neucha", italic;
-  color: var(--tr_dark);
-  font-size: 24px;
   margin-top: 0;
   margin-bottom: 0;
+
+  color: var(--tr_dark);
+  font-size: 24px;
+  font-family: "Neucha", italic;
 }
 
 .effect-p-brown {
@@ -257,24 +283,26 @@ h3 {
 }
 
 .effect-h3-brown {
-  color: var(--white);
   max-width: 514px;
+
+  color: var(--white);
 }
 
 h4 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: var(--brown);
-  color: var(--white);
   padding-left: 10px;
   margin-top: 100px;
   margin-bottom: 20px;
+
+  color: var(--white);
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--brown);
+  font-family: "Open Sans", sans-serif; 
 }
 
 .h4-brown {
-  background-color: var(--white);
   color: var(--brown);
+  background-color: var(--white);
 }
 
 .p-marg-none {
@@ -301,18 +329,21 @@ h4 {
 }
 
 .sub-rule {
-  font-size: 12px;
   margin-top: 0;
+
+  font-size: 12px;
 }
 
 .size-mail {
-  font-size: 18px;
   margin-bottom: 9px;
+
+  font-size: 18px;
 }
 
 .footer-form {
   padding: 15px;
   width: 390px;
+
   border: none;
 }
 
@@ -320,9 +351,10 @@ h4 {
   position: relative;
   height: 50px;
   width: 70px;
+  margin-right: 55px;
+
   background-color: var(--basic);
   border: none;
-  margin-right: 55px;
 }
 
 .deliver:hover {
@@ -340,13 +372,16 @@ h4 {
   right: 0;
   bottom: 0;
   left: 23px;
+
   background-image: url(../images/send.svg);
   background-repeat: no-repeat;
+
   content: "";
 }
 
 .contacts {
   margin-top: 60px;
-  text-align: center;
+
   font-size: 14px;
+  text-align: center;
 }
