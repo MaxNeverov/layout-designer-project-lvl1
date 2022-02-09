@@ -118,12 +118,13 @@ h3{
 .what-is{
   color: var(--basic);
   text-align: center;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .what-is-p{
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .video{
@@ -131,7 +132,7 @@ h3{
   display: block;
   margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  margin-bottom: -200px;
+  margin-bottom: -184px;
   border: none;
 }
 
