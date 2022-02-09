@@ -28,7 +28,7 @@ h3 {
   margin-top: 0;
 
   font-weight: 400;
-  font-family: "Neucha", italic;
+  font-family: "Neucha", sans-serif;
   line-height: 1.2em;
 }
 
@@ -135,6 +135,7 @@ h3 {
 .what-is-p {
   margin-top: 0;
   margin-bottom: 30px;
+  
   text-align: center;
 }
 
@@ -163,6 +164,7 @@ h3 {
 .h2-card {
   margin-bottom: 20px;
   padding-right: 39px;
+
   color: var(--basic);
   font-size: 52px;
 }
@@ -289,7 +291,7 @@ h4 {
   color: var(--white);
   font-weight: bold;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
 
   background-color: var(--brown);
 }
@@ -316,7 +318,6 @@ h4 {
 .h3-footer {
   margin-bottom: 0;
   padding: 55px 122px 55px 55px;
-  
   color: var(--white);
 }
 
