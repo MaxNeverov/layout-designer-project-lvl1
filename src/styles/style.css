@@ -14,25 +14,23 @@
 }
 
 body {
-
   margin: 0 0;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
 
   color: var(--dark);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  
   line-height: 1.6em;
 }
 
 h1,
 h2,
 h3 {
-
   margin-top: 0;
-  font-family: "Neucha", italic;
-  
-  font-weight: 400;
 
+  font-weight: 400;
   line-height: 1.2em;
+  font-family: "Neucha", italic;
 }
 
 h1 {
@@ -70,8 +68,8 @@ h3 {
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
   z-index: -2;
 
   background-image: url("../images/background.png");
@@ -120,9 +118,8 @@ h3 {
   color: var(--white);
   font-weight: bold;
 
-  border: none;
-  
   background-color: var(--basic);
+  border: none;
 }
 
 .h-btn:hover {
@@ -134,7 +131,6 @@ h3 {
 
   color: var(--basic);
   text-align: center;
-  
 }
 
 .what-is-p {
@@ -150,9 +146,8 @@ h3 {
   display: block;
   margin: 0 auto -184px auto;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  
   border: none;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .video-marg {
@@ -168,9 +163,9 @@ h3 {
 }
 
 .h2-card {
-  padding-right: 39px;
   margin-bottom: 20px;
-
+  padding-right: 39px;
+  
   color: var(--basic);
   font-size: 52px;
 }
@@ -248,8 +243,8 @@ h3 {
 
 .effect-img {
   margin-right: 30px;
+
   vertical-align: middle;
-  
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -263,7 +258,7 @@ h3 {
 
   color: var(--tr_dark);
   font-size: 24px;
-  font-family: "Neucha", italic;
+  font-family: "Neucha", sans-serif;
 }
 
 .effect-p-brown {
@@ -289,19 +284,20 @@ h3 {
 }
 
 h4 {
-  padding-left: 10px;
   margin-top: 100px;
   margin-bottom: 20px;
+  padding-left: 10px;
 
   color: var(--white);
-  font-size: 14px;
   font-weight: bold;
-  background-color: var(--brown);
+  font-size: 14px;
   font-family: "Open Sans", sans-serif; 
+  background-color: var(--brown);
 }
 
 .h4-brown {
   color: var(--brown);
+
   background-color: var(--white);
 }
 
@@ -319,8 +315,8 @@ h4 {
 }
 
 .h3-footer {
-  padding: 55px 122px 55px 55px;
   margin-bottom: 0;
+  padding: 55px 122px 55px 55px;
   color: var(--white);
 }
 
@@ -341,16 +337,17 @@ h4 {
 }
 
 .footer-form {
-  padding: 15px;
   width: 390px;
+  padding: 15px;
 
   border: none;
 }
 
 .deliver {
   position: relative;
-  height: 50px;
+
   width: 70px;
+  height: 50px;
   margin-right: 55px;
 
   background-color: var(--basic);
@@ -362,8 +359,8 @@ h4 {
 }
 
 .footer-flex {
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .deliver::before {
